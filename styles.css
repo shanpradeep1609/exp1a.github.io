@@ -1,0 +1,99 @@
+body,h1,h2,h3,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8e7e7;
+    color:aliceblue;
+}
+
+.logo img{
+    max-height: 80px;
+    max-width: 200px;
+    height: 80px;
+    width: 200px;
+}
+
+.collage-info{
+    color: rgb(0, 0, 0);
+    padding-left: 60px;
+}
+
+nav{
+    background-color: darkslategrey;
+
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu li{
+    margin-right: 20px;
+
+}
+
+.menu a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    background-color: darkslategray;
+    list-style: none;
+    padding: 10px;
+}
+
+.dropdown:hover .submenu{
+    display: block;
+}
+
+.submenu li{
+    margin: 5px 0;
+}
+
+li a:hover{
+    background-color: white;
+    color: darkslategray;
+}
+
+footer{
+    margin-top: auto;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media img{
+    height: 20px;
+    margin: 0px;
+}
+
+.main-content img{
+    height: 600px;
+    width: 1000px;
+    padding-left: 180px;
+    
+}
+
